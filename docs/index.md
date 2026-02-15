@@ -11,6 +11,14 @@ Use this page as the top-level map for operational and engineering truth.
 - Runtime turn protocol: `workflows/turn-loop.md`
 - Runtime play runbook: `workflows/play-runbook.md`
 
+## Runtime Specification (Hierarchical)
+- Runtime spec index: `runtime/index.md`
+- Verifiable turn mechanism: `runtime/turn-mechanism.md`
+- Canonical state model: `runtime/state-model.md`
+- Adjudication rules contract: `runtime/adjudication-rules.md`
+- CLI deterministic contract: `runtime/cli-contract.md`
+- Receipts and replay audit: `runtime/receipts-and-audit.md`
+
 ## Script and Command Source of Truth
 - Canonical scripts/hooks registry: `scripts/index.md`
 
