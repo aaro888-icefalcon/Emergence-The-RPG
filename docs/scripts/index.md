@@ -74,6 +74,41 @@ Status: **Blocked** — no runtime scripts currently implement these stages.
 
 ---
 
+
+## Planned Runtime CLI Commands (Spec Only)
+These command names are reserved by the runtime contract in `docs/runtime/cli-contract.md`.
+They are not implemented yet and therefore are **not runtime-safe**.
+
+### `emg-state-validate`
+- **Category:** runtime-stage
+- **Purpose:** pre-validate canonical state schema and invariants.
+- **runtime-safe:** no
+- **Status:** planned (unimplemented)
+
+### `emg-turn-apply`
+- **Category:** runtime-stage
+- **Purpose:** apply one turn deterministically using explicit input and seed.
+- **runtime-safe:** no
+- **Status:** planned (unimplemented)
+
+### `emg-derived-regenerate`
+- **Category:** runtime-stage
+- **Purpose:** regenerate derived outputs from canonical state.
+- **runtime-safe:** no
+- **Status:** planned (unimplemented)
+
+### `emg-state-postvalidate`
+- **Category:** runtime-stage
+- **Purpose:** validate cross-artifact consistency after turn application.
+- **runtime-safe:** no
+- **Status:** planned (unimplemented)
+
+### `emg-receipt-write`
+- **Category:** runtime-stage
+- **Purpose:** emit machine-readable + human-readable turn receipts.
+- **runtime-safe:** no
+- **Status:** planned (unimplemented)
+
 ## Gaps / Follow-up Actions
 1. Add project-owned scripts for the required runtime pipeline stages.
 2. Add each script to this registry with complete IO contracts.

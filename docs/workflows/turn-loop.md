@@ -5,8 +5,15 @@ This is the mandatory protocol for a valid game turn.
 ## Fidelity Pledge
 Run mechanics using documented scripts and rules only. Do not improvise missing mechanics.
 
+## Linked Runtime Specs
+- Turn mechanism and verification gates: `../runtime/turn-mechanism.md`
+- Canonical state model: `../runtime/state-model.md`
+- Adjudication rules: `../runtime/adjudication-rules.md`
+- CLI contract: `../runtime/cli-contract.md`
+- Receipts and audit trail: `../runtime/receipts-and-audit.md`
+
 ## Truth Model
-- Canonical state: project state files (to be defined by runtime scripts).
+- Canonical state: project state files (defined by runtime scripts).
 - Derived outputs: regenerated artifacts only; never hand-edit derived outputs.
 - Determinism: RNG seed must be recorded in canonical state and in turn receipts.
 

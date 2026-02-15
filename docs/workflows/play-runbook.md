@@ -6,6 +6,13 @@ Operational runbook for high-fidelity gameplay execution.
 - Runtime mode is for running turns only.
 - Development changes (scripts, schema, migrations, tooling) are out-of-scope for runtime mode.
 
+## Required Pre-Read
+Read in this order before runtime execution:
+1. `turn-loop.md`
+2. `../runtime/turn-mechanism.md`
+3. `../runtime/cli-contract.md`
+4. `../runtime/receipts-and-audit.md`
+
 ## Script-First Rule
 Before any runtime action:
 1. Open `docs/scripts/index.md`.
